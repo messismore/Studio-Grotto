@@ -32,22 +32,22 @@ map.on('load', function () {
   });
 });
 
-var toggleableLayerIds = [ 'test', ];
+const toggleableLayerIds = [ 'test', ];
 
-for (var i = 0; i < toggleableLayerIds.length; i++) {
-    var id = toggleableLayerIds[i];
+for (let i = 0; i < toggleableLayerIds.length; i++) {
+    let id = toggleableLayerIds[i];
 
-    var link = document.createElement('a');
+    let link = document.createElement('a');
     link.href = '#';
     link.className = 'active';
     link.textContent = id;
 
     link.onclick = function (e) {
-        var clickedLayer = this.textContent;
+        let clickedLayer = this.textContent;
         e.preventDefault();
         e.stopPropagation();
 
-        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+        let visibility = map.getLayoutProperty(clickedLayer, 'visibility');
 
         if (visibility === 'visible') {
             map.setLayoutProperty(clickedLayer, 'visibility', 'none');
@@ -58,6 +58,6 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
         }
     };
 
-    var layers = document.getElementById('menu');
+    const layers = document.getElementById('menu');
     layers.appendChild(link);
 }
