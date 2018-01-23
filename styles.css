@@ -21,6 +21,6 @@ body {
   text-decoration: none;
 }
 
-#menu a.active:hover {
+#menu a.active {
   color: red;
 }
