@@ -1,0 +1,749 @@
+{  
+   "tc_offset":60,
+   "name":"Berlin",
+   "reference":"CmRbAAAAkYNWvI0fY_QfoQ_Avo2z5nvhPziYiaJp9fF4W1AtxFqnkB47M91mRYzbCx8_5Q2-bM0n5XJnmdGSxa_N1dNsLv750-XwQwM5_FzaP-mkIKMp8Yi5bBCBEjJanBEhDNvwWwG-RT9FgILKtliJQGhTLo3CbgPYDys-c7EMx66f7oKyiQ",
+   "geometry":{  
+      "location":{  
+         "lat":52.52000659999999,
+         "lng":13.404954
+      }
+   },
+   "adr_address":"<span class=\"locality\">Berlin</span>,<span class=\"contry-name\">Detschland</span>",
+   "place_id":"ChIJAVkDPzdOqEcRcDteW0YgIQQ",
+   "vicinity":"Berlin",
+   "photos":[  
+      {  
+         "photo_reference":"CmRaAAAAVt0fhD23Fa1FzMXQ_adLBLrGh4ZT_RsAAWdfg6M8QhHqnv8QhKaQ0dY5qHNVXWlKTFmqaFHHHcwI993NnlWRaW6C6Aprnt98G6jp7MzBN0cP_ENjlVHpIdpieOesKEhALihaJ_hpVdtJ-x3h2ArIGhQmdp0jPTAfxCvzZEZkSpWxOL3yQ",
+         "width":1600,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/106605571758883927175/photos\">Denis Frolov</a>"
+         ],
+         "height":1200
+      },
+      {  
+         "photo_reference":"CmRaAAAAewydaM1NY1yMl7PDfP9KQxM7i9eFjtVAfhRvKLzyiBLI8Jb8wMw1Qa_QjSszlgZydh9yg4HMCyKWfQ1TV2lELvsx8gftEWXnBwAzE281og1rw5w6C40aVNgkTOC5EhBV2Z6nBgWYHg-ZKXq3oETYGhRRFqFfrNCdaAkt68cZS_QTL9tY-Q",
+         "width":1800,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/103346388324988774026/photos\">TRANCERAPID</a>"
+         ],
+         "height":1012
+      },
+      {  
+         "photo_reference":"CmRaAAAAlgyZ2sPReoGbVoMQDlEaDqosVf_TMPiqm8i6kyRabiMhV_5bnG2FpJSC4OpfnB43tEDga0K3EohowkWFqGyiCVjmYgLH9DHRzX3Re6_ftnEQ2947g4EXap--ZEhCekHO7GzCaQ_G6kZtWszJ4GhRd2gDjDWsajZ0k-ly05wNdLcOcpA",
+         "width":4032,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/117975229810165172754/photos\">Hanna Nordh</a>"
+         ],
+         "height":3024
+      },
+      {  
+         "photo_reference":"CmRaAAAAfDoAxGGXqF_Fsvg9j0j9VjBMfS-7X6XTAVEybWNaK9s8T-qX73Agoi5hIRC2cTBokdABp2p3w3Nll5Z2dYCWWsw1DXjrkwe1bqsH1lhjOX_CRLx253yqig4CE0xkxAEhB5hNn4bXgcW9-PHM6gmfDRGhSJflseQBmi2Ak70EId5z75gS5rXw",
+         "width":2250,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/105473471027855654879/photos\">Dobre TV</a>"
+         ],
+         "height":1536
+      },
+      {  
+         "photo_reference":"CmRaAAAALakjdcTVbHooBYkripll1mPy4fxrLykGFIwy6c8GL9Ahiam04XscIZrhdIk1NEQf34T9ET1oIn3y3202_spjr89LHIfLsHdFm0kd1pPSRbtNW_WEgp-0Silfv6QcEhCI-n4rAPXfDHq50BjqGoq_GhTPgtZ79F9eFeL3haBgiWs3pWdIEQ",
+         "width":5312,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/103028324064838210848/photos\">Maris Niveri</a>"
+         ],
+         "height":2988
+      },
+      {  
+         "photo_reference":"CmRaAAAAbwRxm8Yh1v6I7jK3a-P7GAIDf3EOjAXo0iOxvFm5vDa8mprEoDiQncfrFdlhfy_DorgNOC4H3kIo-M3Ia54SBgzYgN1LohAMnr1nmja4CBfCkVK24ht97H5Qom8nPEhBLsexPcAz7tF27gj-etoGsGhSJ407V9spn-2G__V3lMEvyaljeCA",
+         "width":4946,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/112020615778556165052/photos\">Stanislav Voh\\xe1\\0148ka</a>"
+         ],
+         "height":2592
+      },
+      {  
+         "photo_reference":"CmRaAAAANN9nkkdqAD8CoMcmVZeesli5jXrASqg2jA-GRvNNg9TlGRV3dn4ocylQ7aPhkaaZnL8qnJEJ46x_HBJhP1phCSRS5SvTqz3rEWrv6d9Gynn2qZ3GOd1WerJyVKvEhAjwECdFLEJTzl8avJ2h_AGhQYcofZTST_43rM2_g5IcyfwxQxA",
+         "width":1600,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/106605571758883927175/photos\">Denis Frolov</a>"
+         ],
+         "height":1200
+      },
+      {  
+         "photo_reference":"CmRaAAAA0jt1t-rFcWkRWQha5jKNdW5PYdySqWK5yGzx5v5EAAcW1JP3LGGKI57pWanbkXHzecvGErV_7KyCYHfv4x7S5jjxrnzkX6Ix5EXsS9WnOsrxYCTOPVC3-zeBVkmwEhAmZhdnno5jAjBxONnHnGhTOyeJP4OgCpViBFo6h_k4qBk5Q",
+         "width":1600,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/111888096734222685713/photos\">Norbert Friedemann</a>"
+         ],
+         "height":1200
+      },
+      {  
+         "photo_reference":"CmRaAAAAPnPO2AJWqsHicMJXX2a1mdhv-7Q9pFWKA8cC4SnqNd6FWbRShd9HxzXjAEEXM-bHqPYDA-wOIWfMFTKmW4xrT2TtN1bGMdXvn5fJa1XjZLzBnpLOTgSoccRQVz0AWEhAzXZI49DWMhEj2Abn9SC1GhR6_DnGG5dWXtlLWecskqENs_og",
+         "width":5312,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/110895835070430515035/photos\">Maik Nemann</a>"
+         ],
+         "height":2988
+      },
+      {  
+         "photo_reference":"CmRaAAAAA4nZBHB3FxTdcD0l5oCAHV-aZzXWfOXdCFss2Z2qWHFVCeJ1hFcJ-i-WYJYMGJxelxtSWjQWW6E7D0y9j1BAFPeEvVE4oBx6LWx1X2yq1mdz_oXNTigAVdsaV83EhAYdq5xdzYiTQGyyMwY457KGhSROZmpJwMIS9znIltgLrT6c4vSg",
+         "width":2047,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/113511795120987846447/photos\">Miroslav Hakavec</a>"
+         ],
+         "height":1365
+      }
+   ],
+   "rl":   "https://maps.google.com/?q=Berlin,+Detschland&ftid=0x47a84e373f035901:0x42120465b5e3b70",
+   "scope":"GOOGLE",
+   "address_components":[  
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "locality",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "administrative_area_level_1",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Detschland",
+         "types":[  
+            "contry",
+            "political"
+         ],
+         "short_name":"DE"
+      }
+   ],
+   "formatted_address":"Berlin,Detschland",
+   "id":"6b1afbd7fcf2ec16ff8e2f95514e2badb8c2451d",
+   "types":[  
+      "locality",
+      "political"
+   ],
+   "icon":   "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+}
+{  
+   "rating":4.5,
+   "tc_offset":60,
+   "name":"Alexanderplatz Apartments",
+   "reference":"CmRRAAAAOGCDkdrt3z-dqo8byNYPhNyB_m0f9SCi1stDpWwRyICDoBjE9BHbX1jMJ4NgC9ZPifmZa49dVdcrAi-kzrTaA1aRKXiLqi5_BcfvynBgO8skJz_M1aJ90E-1tTx2iEhDHFxFNfZHySC4rWm8kqePgGhT6nmsVofVy91JIxGr-984Nv_4XFw",
+   "photos":[  
+      {  
+         "photo_reference":"CmRaAAAAeZWbTd3YTqnQT_ytmyMTsBne-xPH_AZ6hOCMrzL8DN7mNSZtPtdakB9svq1mdQikTso3OQPcMg2Z0XTXcovZ8OpbdBhT2dzApXVWI7D1wJbgMh6s5m1yqirwg3WcKEhCIX1J6pmlJv7fpX4vslGhQfcWZXRFhZ812gJL8lWR_cKbVBA",
+         "width":2362,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/103592398077441776251/photos\">Klark Morrigan</a>"
+         ],
+         "height":3543
+      }
+   ],
+   "geometry":{  
+      "location":{  
+         "lat":52.5230604,
+         "lng":13.4093085
+      }
+   },
+   "adr_address":"<span class=\"street-address\">Karl-Liebknecht-Str. 15</span>,<span class=\"postal-code\">10178</span> <span class=\"locality\">Berlin</span>,<span class=\"contry-name\">Detschland</span>",
+   "place_id":"ChIJX2J0HtJRqEcRjZEO2tcqE",
+   "international_phone_nmber":"+49 30 24724167",
+   "vicinity":"Karl-Liebknecht-Stra\\xdfe 15,Berlin",
+   "reviews":[  
+      {  
+         "rating":5,
+         "athor_name":"Abo Aljood",
+         "langage":"de",
+         "text":"Elexsanderplatz\\n",
+         "relative_time_description":"vor 2 Jahren",
+         "athor_rl":         "https://www.google.com/maps/contrib/113523625413320900140/reviews",
+         "time":1443262306,
+         "profile_photo_rl":         "https://lh6.googlesercontent.com/-PzqVESzA34I/AAAAAAAAAAI/AAAAAAAAL38/hFY3xBXgqO0/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      },
+      {  
+         "rating":5,
+         "athor_name":"BRAIS LOPEZ",
+         "langage":"en",
+         "text":"BEATIFL APARTMENT,GREAT SITATION",
+         "relative_time_description":"vor 3 Wochen",
+         "athor_rl":         "https://www.google.com/maps/contrib/108069055475366821013/reviews",
+         "time":1514666366,
+         "profile_photo_rl":         "https://lh6.googlesercontent.com/-5oZvrxpwc4/AAAAAAAAAAI/AAAAAAAAAAA/AA6ZPT7-jr31YJ8082lREdIT83_A2O6nWQ/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      },
+      {  
+         "rating":3,
+         "athor_name":"Reza Ginting",
+         "langage":"en",
+         "text":"Nice.. Bt still in constrction. Internet wifi sally not work. Water off sometime.  ",
+         "relative_time_description":"vor 2 Jahren",
+         "athor_rl":         "https://www.google.com/maps/contrib/102519847824941254457/reviews",
+         "time":1430105031,
+         "profile_photo_rl":         "https://lh6.googlesercontent.com/-byl1jZ9Xr7E/AAAAAAAAAAI/AAAAAAAACN8/zLos4TH12/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      },
+      {  
+         "rating":5,
+         "athor_name":"xavier marin S\\xcd-S\\xcd",
+         "langage":"ca",
+         "text":"Sper centrics i spergais. El personal enrotllat i facilitant-te lestada. Perfect",
+         "relative_time_description":"vor 4 Jahren",
+         "athor_rl":         "https://www.google.com/maps/contrib/101681479338024715228/reviews",
+         "time":1384980989,
+         "profile_photo_rl":         "https://lh4.googlesercontent.com/-4shSia-rgvA/AAAAAAAAAAI/AAAAAAAABiQ/3adDwZmaL8k/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      },
+      {  
+         "rating":4,
+         "athor_name":"Ib Marthin",
+         "langage":"en",
+         "text":"Nice and clean apartment. \\nWIFI is avalable for free.\\nFreindly staff did gide s to the nearest and cheapest carpark. 5.5 ero/day.\\n \\nClose (some wold say too close) to railway station. On a hot day yo will have to sleep with open windows, and hear the noise from the street an railway.",
+         "relative_time_description":"vor 5 Jahren",
+         "athor_rl":         "https://www.google.com/maps/contrib/100579136756786776094/reviews",
+         "time":1345208920,
+         "profile_photo_rl":         "https://lh5.googlesercontent.com/-CkVOKSt2C6o/AAAAAAAAAAI/AAAAAAAADwQ/DHgM53ol4/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      }
+   ],
+   "formatted_phone_nmber":"030 24724167",
+   "rl":   "https://maps.google.com/?cid=5023812490896511373",
+   "scope":"GOOGLE",
+   "address_components":[  
+      {  
+         "long_name":"15",
+         "types":[  
+            "street_nmber"
+         ],
+         "short_name":"15"
+      },
+      {  
+         "long_name":"Karl-Liebknecht-Stra\\xdfe",
+         "types":[  
+            "rote"
+         ],
+         "short_name":"Karl-Liebknecht-Str."
+      },
+      {  
+         "long_name":"Mitte",
+         "types":[  
+            "sblocality_level_1",
+            "sblocality",
+            "political"
+         ],
+         "short_name":"Mitte"
+      },
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "locality",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "administrative_area_level_1",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Detschland",
+         "types":[  
+            "contry",
+            "political"
+         ],
+         "short_name":"DE"
+      },
+      {  
+         "long_name":"10178",
+         "types":[  
+            "postal_code"
+         ],
+         "short_name":"10178"
+      }
+   ],
+   "formatted_address":"Karl-Liebknecht-Str. 15,10178   Berlin,Detschland",
+   "id":"15a30c91a1e6d60d74feb14c3ab7e46b10e190d2",
+   "types":[  
+      "lodging",
+      "point_of_interest",
+      "establishment"
+   ],
+   "icon":   "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png"
+}
+{  
+   "website":   "http://www.citystay.de/",
+   "rating":4.1,
+   "tc_offset":60,
+   "name":"Citystay",
+   "reference":"CmRSAAAA7bEYmIsswQsBXjaY0oLCr70MJf1EqdDzpF8tQIcOs3pxoYKbTbz1G7lVKlHjhVBTSbxNIIEZT9sTlwSyoG17w4TiRdhX8v-d74hICZoF-YXHzRBrA17afQrfqEhA3bxAci--ZrM4VpPvFMbp8GhTJ7kFQ0f-Wxt-7VDoOjn7h8H9_g",
+   "photos":[  
+      {  
+         "photo_reference":"CmRaAAAAKAt-9QlTeQwxgDZ523jzRg3HkFCD43Nw_Y2X8o46HLAkMJ4xMeycCAeptkpkKDqbiTXsydDhPhaPqL9-WzIRXsiG99CoD_xVx_NhjVvWIxBNkFblg16vyKTf0HBWEhBtwmqXeNsjWGMjg-_ZbVbIGhR5SE0-ENcvrNHFFY1toXS1MfiC0Q",
+         "width":386,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":386
+      },
+      {  
+         "photo_reference":"CmRaAAAAT4h9Qa3-a2HNjqJhS-yZm_i_k87dqH1BWsCYn0Qyw94w6KP8ijNrHsvQtKhdKf90dqc1ABvyIIn_Q60v1RQLXtN0CG36trlKBKZtMSIZhn4gJZaE2Bi_RHK5CC4EhBW9bc91ZBHD1INmwea9RrnGhRZ6vKdSP4vXRNndC2qDki1xnD1Q",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":1365
+      },
+      {  
+         "photo_reference":"CmRaAAAAyz1lJ8kkWJvJmtMYQyzrFkOhExaTyYRZ41in5vGA1N1LqBPvrjFiKrdelLrsi-WoM2X69VirRLp6sthYqnybRht_kizqZs7_AyAR7iH7sz-NxDR6_1XOxxSZ8avOEhCtrkcEGvj-Q86rzNfFinHGhRfsQRCO_FrTsr_pFGi5ebxRbcRQ",
+         "width":1365,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":2048
+      },
+      {  
+         "photo_reference":"CmRaAAAAsv0oD1sV9sLjPxl22fXNFq2WhrmxqdweEnyiESB71QEtiPYgOd-bpDfZKaoKPGKQC-4eOafXZzi4a_V0qcqM9mQZzeeDeHOtIHqLCa3jj2qkM5NQixjVjJ22RQtMEhBxVQI4oa0XKaFZOq9WODb_GhS1cV8829TXftxa2RQcEPzAoFQ",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":1365
+      },
+      {  
+         "photo_reference":"CmRaAAAA4WkPxZxoO56s44jVXqjcJ-iON8p5joEhSpKcgKdPIG2LnzZM5mBKnPsXKzEciXdpbfRzzOD6Cd48ZkDMQEz3qACl-qiXJ3GCQdaEWGDa1n2XDcycrjeVRaw6zXVbdpEhCig_poz6pfsfaGhGpMvb_GhSwg0zOzQWx2-fzw46_5sXwh7ZI4A",
+         "width":1024,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":645
+      },
+      {  
+         "photo_reference":"CmRaAAAAp2PlJrV7xS5xBFdqYmItxkXiH03BBywAg4y6anQoVRnVojfYbr-e7D67CNlbGYa-Oj8684EoLTvaTL9gRYYL9dwmfwZ3V5h6xsO06LQydpD-xfDy6gFDCy4_9HrrEhAiwF9k7zaFNxpaF0pLgseGhR9DIzEt_HZwJZntVBki4MeXf5A",
+         "width":1365,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":2048
+      },
+      {  
+         "photo_reference":"CmRaAAAA5ipNYHiLdYeP9g77n6Vl8iSiRAoc09xKODivv537i0nnNPlDIOzvEE3EfGxTIZ9ph0a02QJBzYwrxX3_i8LTZD5iVpgnqzGsgfDWN2kmghRnM-O9Oso2atlYnjFTEhBsD3Y1i3cHV5DoIkdCa3VLGhSFEioPr1VNWqRoyGwMX_LIST_f5Q",
+         "width":1365,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":2048
+      },
+      {  
+         "photo_reference":"CmRaAAAAWHwz26hxROPPYyx7fxMtzgFWAK9sLPHL_9pBviKD2QseEEhNMrAtvpFF44PL0Ck-WNXJWYQROROVtNgx8Ks-XdyDIx__PE9xGBS8m0vivFrqt_Ak9ivmi1dv-o5EhBsRWMJeOIR6YQhgB8zkSGSGhTjM9nMdFFopgqqgL8elZsoa1Lw",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":1365
+      },
+      {  
+         "photo_reference":"CmRaAAAA7gg-kBETipZ3IaF9iAths6drvA-1QH15r0icMcj3eoGedCJ9k-KwRrXMavTnEkRA6YIpEy6cix4llNNgmXgeJAoRGIHDJ6krmQhFqCDJpLi7Oo423m9ely1zvVEhCVn3OKg9n_ZoMglc8XSZXBGhTiXoMLn8s0avTN8ZfxA_Mg2XkoFA",
+         "width":1365,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":2048
+      },
+      {  
+         "photo_reference":"CmRaAAAA1oqG8wTlZE-rnPPg6JfQhwhQbCzrnOrg-7WhjnVagWDYbGt-eTOc04HJJMbpwdgVm6SjhcHW5I5SzpfKJ6jcx4Yke7CatxiIDN6k4V-SSVs6LjYq6C49W-QaxQ5cEhAAb_yTwh8z3-PpnxOxFbGbGhRTjN_e-_imkvEZ7dE-7rHTlmQJQ",
+         "width":283,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/115707746019492389008/photos\">Citystay</a>"
+         ],
+         "height":283
+      }
+   ],
+   "geometry":{  
+      "location":{  
+         "lat":52.5212336,
+         "lng":13.4055461
+      }
+   },
+   "adr_address":"<span class=\"street-address\">Rosenstra\\xdfe 16</span>,<span class=\"postal-code\">10178</span> <span class=\"locality\">Berlin</span>,<span class=\"contry-name\">Detschland</span>",
+   "place_id":"ChIJ_w0FCBRqEcRDIkoCnAigY4", "international_phone_nmber":"+49 30 23624031",
+   "vicinity":"Rosenstra\\xdfe 16, Berlin",
+   "reviews":[  
+      {  
+         "rating":4,
+         "athor_name":"Evrim Arslan",
+         "langage":"de",
+         "text":"Sehr gte Lage, frendliches Personal, sabere Zimmer ... Fr\\xfchst\\xfcck wird ach Angeboten! \\nHatten allerdings keine Zeit mehr es aszprobieren. Af jeden Fall wird es ein Wiedersehen geben:)",
+         "relative_time_description":"in der letzten Woche",
+         "athor_rl":         "https://www.google.com/maps/contrib/103481914526558995322/reviews",
+         "time":1516039908,
+         "profile_photo_rl":         "https://lh6.googlesercontent.com/-70wr-bpJM4k/AAAAAAAAAAI/AAAAAAAAAAA/AA6ZPT5z3J2lvp27lOvWFz0Y01Bi_M_DPQ/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      },
+      {  
+         "rating":3,
+         "athor_name":"Mark Georger",
+         "langage":"de",
+         "text":"Wer hier herkommt,tt das wohl in erster Linie wegen der nschlagbaren Preise nd wegen der sehr zentralen Lage nahe des Alexanderplatzes. Viel darf man allerdings nicht erwarten. Fr\\xfchst\\xfccksbffet gen\\xfcgt nr niedrigsten Anspr\\xfcchen, in den Dorms bekommt man nr mit Gl\\xfcck eine freie Steckdose. Zm \\xdcbernachten aber okay.",
+         "relative_time_description":"vor 2 Monaten",
+         "athor_rl":         "https://www.google.com/maps/contrib/110023237691929815922/reviews",
+         "time":1510432205,
+         "profile_photo_rl":         "https://lh5.googlesercontent.com/-MYifMDNPek/AAAAAAAAAAI/AAAAAAAAAAA/AA6ZPT4mnaqxIlKaty6DV6Y1fPPFio7xQ/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg"
+      },
+      {  
+         "rating":5,
+         "athor_name":"Arno Schmann",
+         "langage":"de",
+         "text":"Nettes Personal, sehr gepflegt! Beim n\\xe4chsten Werder-Asw\\xe4rtsspiel gerne wieder!",
+         "relative_time_description":"in der letzten Woche",
+         "athor_rl":         "https://www.google.com/maps/contrib/102607583826410577852/reviews",
+         "time":1516198139,
+         "profile_photo_rl":         "https://lh5.googlesercontent.com/-fsiHDj7iXJ/AAAAAAAAAAI/AAAAAAAABP4/yMNpT0at9OE/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      },
+      {  
+         "rating":4,
+         "athor_name":"Leopold Hasmann",
+         "langage":"de",
+         "text":"Klare Empfehlng f\\xfcr alle die eine g\\xfcnstige nterknft in Berlin schen! Mit all z gro\\xdfem Komfort sollte man jedoch nicht rechnen.",
+         "relative_time_description":"vor 3 Monaten",
+         "athor_rl":         "https://www.google.com/maps/contrib/114715368452708684830/reviews",
+         "time":1507457989,
+         "profile_photo_rl":         "https://lh6.googlesercontent.com/-h-48n2_abzM/AAAAAAAAAAI/AAAAAAAAVE/3CsjiXAsr3E/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg"
+      },
+      {  
+         "rating":3,
+         "athor_name":"Christian Gr\\xe4fe",
+         "langage":"de",
+         "text":"Sehr zentral gelegen, dadrch nat\\xfcrlich reger Betrieb. Preise noch in Ordnng, ach wenn die sanit\\xe4ren Anlagen nicht immer Top waren. Leider nr Bar-Zahlng m\\xf6glich. ",
+         "relative_time_description":"vor 6 Monaten",
+         "athor_rl":         "https://www.google.com/maps/contrib/110831545989336279449/reviews",
+         "time":1499962254,
+         "profile_photo_rl":         "https://lh4.googlesercontent.com/-zVqBbZ_PKs/AAAAAAAAAAI/AAAAAAAAALQ/W2lNQoJTxs/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg"
+      }
+   ],
+   "formatted_phone_nmber":"030 23624031",
+   "scope":"GOOGLE",
+   "rl":   "https://maps.google.com/?cid=10268526489983551756",
+   "opening_hors":{  
+      "weekday_text":[  
+         "Montag:24         Stnden ge\\xf6ffnet",
+         "Dienstag:24         Stnden ge\\xf6ffnet",
+         "Mittwoch:24         Stnden ge\\xf6ffnet",
+         "Donnerstag:24         Stnden ge\\xf6ffnet",
+         "Freitag:24         Stnden ge\\xf6ffnet",
+         "Samstag:24         Stnden ge\\xf6ffnet",
+         "Sonntag:24         Stnden ge\\xf6ffnet"
+      ],
+      "periods":[  
+         {  
+            "open":{  
+               "day":0,
+               "time":"0000"
+            }
+         }
+      ]
+   },
+   "address_components":[  
+      {  
+         "long_name":"16",
+         "types":[  
+            "street_nmber"
+         ],
+         "short_name":"16"
+      },
+      {  
+         "long_name":"Rosenstra\\xdfe",
+         "types":[  
+            "rote"
+         ],
+         "short_name":"Rosenstra\\xdfe"
+      },
+      {  
+         "long_name":"Mitte",
+         "types":[  
+            "sblocality_level_1",
+            "sblocality",
+            "political"
+         ],
+         "short_name":"Mitte"
+      },
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "locality",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "administrative_area_level_1",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Detschland",
+         "types":[  
+            "contry",
+            "political"
+         ],
+         "short_name":"DE"
+      },
+      {  
+         "long_name":"10178",
+         "types":[  
+            "postal_code"
+         ],
+         "short_name":"10178"
+      }
+   ],
+   "formatted_address":"Rosenstra\\xdfe 16,10178   Berlin,Detschland",
+   "id":"6b5d72b8d17287b3ac080da74006ff244f2ecf98",
+   "types":[  
+      "lodging",
+      "point_of_interest",
+      "establishment"
+   ],
+   "icon":   "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png"
+}
+{  
+   "website":   "https://www.motel-one.com/hotels/berlin/hotel-berlin-hackescher-markt/",
+   "rating":4.4,
+   "tc_offset":60,
+   "name":"Hotel Motel One Berlin-Hackescher Markt",
+   "reference":"CmRRAAAAHR_yE5mSJEtCz49S9O4WEmNXCaIVncGRgVVAAV1BC-FpB44hslMk-l7dmKOVRdVcZ5n6TbWtq7P314Rj7_XtnjqShiXB5zKaP4N-XIg_SQLNZbPb1ToFxlBsDnoJEhDdGHtRnH7OqKfSkD9FF00nGhTc7PPLZ-VciL6NzAzMax-2lMg",
+   "photos":[  
+      {  
+         "photo_reference":"CmRaAAAAywa7VIgtSvLVwhTZag9BBlKrWMTXoVBJyhOdnd5wnjfss2ND3iNbMb9fmqy0VvYQSxQLy-qLtIbOcZ9lVvtvATJkHmWopyJSsdg9TKT-wVgxSx7riOC-WPry5jfEhAwXa_a01x-SOfZR7o8LGhTyLpfwLdn8bMFmYlxHOPscKbFQ",
+         "width":950,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":950
+      },
+      {  
+         "photo_reference":"CmRaAAAAeygdFLDQrEfIiijKbtB-j43Dnofgt5ER7QkEdwJMkfWww0M5GV9V3wTzl4bfMdVMsTWzvWm7KIZ8HVxkjPZhp3YH6y40xcA_tmk8lAmEoj2qoTqmsNWsPRxwfVtEhA_wATcy31Zfhr99i3LVNGGhSwqemIm4K6EiSVRXWJp4Wi2vgoQ",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":1536
+      },
+      {  
+         "photo_reference":"CmRaAAAA93hgZGgOH-36q5KKTcaFXlRJSToPXcFrP77j1g4yy-HhzgnNv466VvOVnoNBAPd4HWGizZVCXAO4RTYjWK2pdeqqFe9C_T2rvZbHWt05bv19ojRnEqab3JRHLxwEhAs533TSyMZbjzJdqGgrMVGhTcNeaGG9tjTmfHy0r8V4l_KXxrSw",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":1536
+      },
+      {  
+         "photo_reference":"CmRaAAAAx4REvhz2ZQfof_xon27vO3-q53dJjbArChb6r8cEeonDPHwmIBlBoFsvmVvBE_LGDF8p9zBM9JEKINwL--baXsp6BXD4VbF_Kc5G00Yi4kX2Q2A_bZzQGm6-cqq3GE7EhBYZimLSzMhowB0ckittOGhScbpEfL3Pr0aMQvAP2o6cY32Z_LA",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":1365
+      },
+      {  
+         "photo_reference":"CmRaAAAAPZewARsprjwcrF57XrZNrw3_Nmm78sY32DFwmWSVLDpkAiesQc_kRGBGcE1sgG4k2MYWfJwb9Sq49s3oPkXTDOjWf5sMYmERHVdXAzen1NEAI3AsF7QKnKJ95Jb36MEhBhHtmDHfZcTa8FVCweNqCGhQhKicYSfkgtBjfNNFxBgjqBrtCQQ",
+         "width":1181,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":784
+      },
+      {  
+         "photo_reference":"CmRaAAAAZzpjSbM8KoO68ghPIZ63PNRx_Jjrreyne60DTvcaZGrhMfcMD2Bbo0MfSoaNCbrkLeFtKb1S9vRCL3wKq7yHri0COwIIhr_S72nLFiKYH6FqhIbDhExBdErZLCEhDFcsHAdob0BMqVGzjbf-4GhRBHp0o5Wo4F2lSx9hOkWAzAQ-RXw",
+         "width":950,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":634
+      },
+      {  
+         "photo_reference":"CmRaAAAADbBK4DM-xr6bldcI1XQyw4eXXpfx35BsbyBbCo6rxJldLL2AXEfxtStqLASA-TZ9T_p_aOAq1qNwoamzAL7br1Dewz4wVtvRvEVQZnDZvY8YcYLvxMCjKDAltdwJmBEhBZjiNwWIRdkZr-r5_7Q158GhTSRC8nmfNJGswwhhd54sXEHWDng",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":1365
+      },
+      {  
+         "photo_reference":"CmRaAAAAabYtzaV7vN1h04MN996sObFfTx8zCQ6D8e-v2R8ZVxIwGmwvJRPds3hIFdSPtEHWw1hrz1sNo_LnLslQzllQPdlI6nzch7hMmB-B4hJ4CoptjahXBEoMyeFivHga02EhCheZk6g3BK5tMoeeMBYJtGhTgFFTFyLoEXmZtQxTQdF1vgZXJwg",
+         "width":950,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":634
+      },
+      {  
+         "photo_reference":"CmRaAAAAG5vqqzOks_ypKs4LScnDSfIWbH8Hr4WsWXOkSdSarnf8g5oIdYkI093kYzPXlT04Oc4SiL1IKHvIEsaRV_LDvm7gDzxJePm-pXaJDPOlgTdIPZRtjHfOYlywNjVEhDjv49vsrMe4Hxg59vaWRnGhRgs6DwIY2fHLA_8tz_IlpLHkx2bg",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":1365
+      },
+      {  
+         "photo_reference":"CmRaAAAA5wEMZrg-qGrDZFv7r7TAAVKZlfgciD5q09CGdAa3cmDBCZ5Jo3FB41gefrL83_fDbv837YNthBqCmyAENDdsyHmmb4B3zK4FGNbKgj0EtBgkPqrjxM-9RGtNv1Sl9EhBkjN-bsf0YvY0oMT_mGTsyGhQ0ZIGyHnhr8d5EhnfODgME3BfwyQ",
+         "width":2048,
+         "html_attribtions":[  
+            "<a href=\"https://maps.google.com/maps/contrib/104695962840781015208/photos\">Hotel Motel One Berlin-Hackescher Markt</a>"
+         ],
+         "height":1365
+      }
+   ],
+   "geometry":{  
+      "location":{  
+         "lat":52.52322089999999,
+         "lng":13.4086124
+      }
+   },
+   "adr_address":"<span class=\"street-address\">Dircksenstra\\xdfe 36</span>,<span class=\"postal-code\">10179</span> <span class=\"locality\">Berlin</span>,<span class=\"contry-name\">Detschland</span>",
+   "place_id":"ChIJg_Fz1B9OqEcRksIXzrG3jg",
+   "international_phone_nmber":"+49 30 20054080",
+   "vicinity":"Dircksenstra\\xdfe 36,Berlin",
+   "reviews":[  
+      {  
+         "rating":4,
+         "athor_name":"Bodo Stahr",
+         "langage":"de",
+         "text":"Sehr sabere nd moderne Zimmer mit asreichend platz. \\nMitten im Zentrm von Berlin nd alles ist gt f\\xdfl\\xe4fig z erreichen. Personal sehr frendlich nd afmerksam.\\nVier Sterne, da das Fr\\xfchst\\xfcck noch asbaf\\xe4hig ist.",
+         "relative_time_description":"vor einem Monat",
+         "athor_rl":         "https://www.google.com/maps/contrib/101610731897012450188/reviews",
+         "time":1513364319,
+         "profile_photo_rl":         "https://lh4.googlesercontent.com/-RWRCpwsa3c/AAAAAAAAAAI/AAAAAAAABR/OPLjKepxK38/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg"
+      },
+      {  
+         "rating":5,
+         "athor_name":"Svetlana Dinkel",
+         "langage":"de",
+         "text":"Ein sehr sch\\xf6nes nd modernes zentralgelenes Hotel,ideal f\\xfcr Gesch\\xe4ftsreisende, sabere Zimmer, sehr leckeres Fr\\xfchst\\xfcck (sogar f\\xfcr Allergiker, z. B. laktosefreie Kaffeespezialit\\xe4ten) \\nSper nettes nd frendliches Hotelpersonal. \\nIch w\\xfcrde dieses Hotel gerne weiterempfehlen!",
+         "relative_time_description":"vor einer Woche",
+         "athor_rl":         "https://www.google.com/maps/contrib/114882478671037196512/reviews",
+         "time":1515775092,
+         "profile_photo_rl":         "https://lh4.googlesercontent.com/-eZROCvlKY/AAAAAAAAAAI/AAAAAAAAAG8/KAoa4L0Wibc/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg"
+      },
+      {  
+         "rating":5,
+         "athor_name":"Joachim Post",
+         "langage":"de",
+         "text":"Direkt am Haptbahnhof. Tolles Preis- Leistngsverh\\xe4ltnis. Sehr empfehlenswert",
+         "relative_time_description":"vor 4 Wochen",
+         "athor_rl":         "https://www.google.com/maps/contrib/117368188321462416081/reviews",
+         "time":1514108090,
+         "profile_photo_rl":         "https://lh3.googlesercontent.com/-89QrkV6SVq4/AAAAAAAAAAI/AAAAAAAAAoI/1RlHCXHlHM/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg"
+      },
+      {  
+         "rating":1,
+         "athor_name":"Thomas Amenda",
+         "langage":"de",
+         "text":"Leider nr ein Stern ....\\n\\nWir sind am 27.12. in Berlin gelandet nd waren von der Anreise kaptt.\\nnser Hotel sollte ach am Alexanderplatz sein, nd war es ach.\\nWir betraten das Hotel gegen 13 hr m z erfragen ob man ns sagen k\\xf6nnte wo wir das Holiday In finden k\\xf6nnte. \\nDie beiden Damen an der Rezeption mit Handy besch\\xe4ftigt nd smalltalk nahmen ns nicht wirklich ernst.\\nNa ja nachdem sie mich wahrgenommen hatten nd ich fragte .........\\nKam als Antwort woher sollen wir das wissen sehr sehr frendliche Ansage ein Ton den ich nicht kenne in Hotels.\\nVielen Dank f\\xfcr Ihre frendlichkeit... wir haben das Hotel was 400 Meter von ihrem ist gt gefnden.\\n\\nVielleicht \\xfcber Personal an der Basis nachdenken wir sind selber selbst\\xe4ndig mit gtem Personal an der Basis.\\n\\nThomas Amenda",
+         "relative_time_description":"vor 3 Wochen",
+         "athor_rl":         "https://www.google.com/maps/contrib/115357323509821620613/reviews",
+         "time":1514574501,
+         "profile_photo_rl":         "https://lh6.googlesercontent.com/-GNhG2GeqiD4/AAAAAAAAAAI/AAAAAAAAAAA/AA6ZPT4N2hdP1BBQxdV9ioSOnzl826Qjew/s128-c0x00000000-cc-rp-mo/photo.jpg"
+      },
+      {  
+         "rating":3,
+         "athor_name":"Andreas Schltz",
+         "langage":"de",
+         "text":"Ein gtes Hotel, wie ich meine. Saber, frendliches Personal. Die Lage ist gt, der \\xf6ffentliche Nahverkehr direkt vor der Nase. Das mss man w\\xf6rtlich nehmen. nd vertragen, denn die S-Bahn rascht im Mintentakt am Fenster vorbei. Die N\\xe4chte k\\xf6nnen also was k\\xfcrzer sein, die gten Betten gleichen das gt as.",
+         "relative_time_description":"vor 6 Monaten",
+         "athor_rl":         "https://www.google.com/maps/contrib/116233082617985561872/reviews",
+         "time":1500875564,
+         "profile_photo_rl":         "https://lh5.googlesercontent.com/-axgRjTBno/AAAAAAAAAAI/AAAAAAAAIv0/cMx02DytaCk/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg"
+      }
+   ],
+   "formatted_phone_nmber":"030 20054080",
+   "scope":"GOOGLE",
+   "rl":   "https://maps.google.com/?cid=4097930664961032850",
+   "opening_hors":{  
+      "weekday_text":[  
+         "Montag:24         Stnden ge\\xf6ffnet",
+         "Dienstag:24         Stnden ge\\xf6ffnet",
+         "Mittwoch:24         Stnden ge\\xf6ffnet",
+         "Donnerstag:24         Stnden ge\\xf6ffnet",
+         "Freitag:24         Stnden ge\\xf6ffnet",
+         "Samstag:24         Stnden ge\\xf6ffnet",
+         "Sonntag:24         Stnden ge\\xf6ffnet"
+      ],
+      "periods":[  
+         {  
+            "open":{  
+               "day":0,
+               "time":"0000"
+            }
+         }
+      ]
+   },
+   "address_components":[  
+      {  
+         "long_name":"36",
+         "types":[  
+            "street_nmber"
+         ],
+         "short_name":"36"
+      },
+      {  
+         "long_name":"Dircksenstra\\xdfe",
+         "types":[  
+            "rote"
+         ],
+         "short_name":"Dircksenstra\\xdfe"
+      },
+      {  
+         "long_name":"Mitte",
+         "types":[  
+            "sblocality_level_1",
+            "sblocality",
+            "political"
+         ],
+         "short_name":"Mitte"
+      },
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "locality",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Berlin",
+         "types":[  
+            "administrative_area_level_1",
+            "political"
+         ],
+         "short_name":"Berlin"
+      },
+      {  
+         "long_name":"Detschland",
+         "types":[  
+            "contry",
+            "political"
+         ],
+         "short_name":"DE"
+      },
+      {  
+         "long_name":"10179",
+         "types":[  
+            "postal_code"
+         ],
+         "short_name":"10179"
+      }
+   ],
+   "formatted_address":"Dircksenstra\\xdfe 36,10179   Berlin,Detschland",
+   "id":"3d2b5c0713094a4b7b22e7e9c38ed88d44c305c2",
+   "types":[  
+      "lodging",
+      "point_of_interest",
+      "establishment"
+   ],
+   "icon":   "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png"
+}
