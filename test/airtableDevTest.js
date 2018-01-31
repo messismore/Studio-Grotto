@@ -32,8 +32,4 @@ function getRecords(table, ) {
   }, error => {console.log(error)});
 };
 
-let letsWait = getRecords('Index');
-console.log(letsWait.Name+'Ergebnis');
-
-console.log(letsWait);
-window.setTimeout(console.log(letsWait), 10000);
+getRecords('Test');
