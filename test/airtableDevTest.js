@@ -32,6 +32,7 @@ function getRecords(table) {
 };
 
 let letsWait = getRecords('Index');
+console.log(letsWait.Name+'Ergebnis');
 
 console.log(letsWait);
 window.setTimeout(console.log(letsWait), 10000);
