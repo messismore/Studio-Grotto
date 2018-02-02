@@ -1,7 +1,7 @@
 const Airtable = require('airtable');
 const base = new Airtable({ apiKey: 'keyJ8TgEdfkjg9z3T' }).base('appaLLsrYXAAEG52k');
 
-function getRecords(table, ) {
+let getRecords = (table, callback) => {
   let retrievedRecords = [];
   base(table).select({
     // Selecting records in Grid view:
@@ -20,16 +20,17 @@ function getRecords(table, ) {
     // If there are more records, `page` will get called again.
     // If there are no more records, `done` will get called.
     fetchNextPage();
-  },
-).then(
-  response => {
-    console.log(retrievedRecords);
-    let retrievedGeoJson = GeoJSON.parse(
-      retrievedRecords, {Point: ['Latitude', 'Longitude']}
-    );
-    console.log(retrievedGeoJson);
-    return retrievedGeoJson
-  }, error => {console.log(error)});
+}, function done(error) {
+    console.log(error);
+    callback(retrievedRecords);
+});
+
+
+
 };
 
-getRecords('Test');
+// console.log(getRecords('Test')+'Yasss');
+getRecords('Index', retrievedRecords => {
+  getRecords(retrievedRecords[0].Name, scndResult => {
+    console.log(scndResult + 'result')
+  })})
