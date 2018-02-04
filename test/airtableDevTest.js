@@ -1,5 +1,5 @@
 const Airtable = require('airtable');
-const base = new Airtable({ apiKey: 'keyJ8TgEdfkjg9z3T' }).base('appaLLsrYXAAEG52k');
+const base = new Airtable({apiKey: 'keyJ8TgEdfkjg9z3T'}).base('appaLLsrYXAAEG52k');
 
 /*
 Loads data from Airtable.com and returns an array of Layer objects.
@@ -24,7 +24,7 @@ function getRecords(table) {
     records.forEach(function(record) {
       // console.log('Retrieved', record.get('Name'));
       if (record.get('Name')) {
-        retrievedRecords.push(record.fields);
+        retrievedRecords.push({'id': record.id, 'fields': record.fields});
       }
     });
     // To fetch the next page of records, call `fetchNextPage`.
@@ -45,9 +45,15 @@ function getRecords(table) {
 
 async function getTables() {
   let index = await getRecords('Index');
-  let requestedTables = index.map(record => getRecords(record.Name));
-  Promise.all(requestedTables).then(
+  let requestedTables = index.map(
+    // Catch errors to make sure the Promise resolves, because we want to use
+    // Promise.all later on. In case of an error simply return [].
+    record => getRecords(record.fields.Name).catch(error => [])
+  );
+  Promise.all(requestedTables).then(  //Wait for all promises to resolve.
     requestedTables => {
+      // Clean array from [].
+      requestedTables = requestedTables.filter(record => record.length > 0);
       console.log(' Success:', requestedTables);
       return requestedTables;
     }
