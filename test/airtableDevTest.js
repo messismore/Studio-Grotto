@@ -4,9 +4,18 @@ const base = new Airtable({apiKey: 'keyJ8TgEdfkjg9z3T'}).base('appaLLsrYXAAEG52k
 /*
 Loads data from Airtable.com and returns an array of Layer objects.
 
+{
+  map.addSource(
+    'test',
+    {
+      "type": "geojson",
+      "data": "https://messismore.github.io/Studio-Grotto/samples/Test.geojson"
+    },
+}
+
 1. Get index
-2. iterate through the returned array (map()? Parallel? contructing an object
-.
+2. iterate through the returned array (map()? Parallel? contructing an object:
+
 .
 .
 Have an object that can be parsed to GeoJSON
@@ -45,19 +54,25 @@ function getRecords(table) {
 
 async function getTables() {
   let index = await getRecords('Index');
-  let requestedTables = index.map(
-    // Catch errors to make sure the Promise resolves, because we want to use
-    // Promise.all later on. In case of an error simply return [].
-    record => getRecords(record.fields.Name).catch(error => [])
-  );
+  // Catch errors to make sure the Promise resolves, because we want to use
+  // Promise.all later on. In case of an error simply return [].
+  let requestedTables = index.map(async function(record) {
+    return {
+      table : record.fields.Name,
+      records : await getRecords(record.fields.Name).catch(error => [])
+    }
+  });
   Promise.all(requestedTables).then(  //Wait for all promises to resolve.
     requestedTables => {
       // Clean array from [].
-      requestedTables = requestedTables.filter(record => record.length > 0);
+      requestedTables = requestedTables.filter(
+        table => table.records.length > 0
+      );
       console.log(' Success:', requestedTables);
       return requestedTables;
     }
   )
 };
+
 
 getTables()
