@@ -25,3 +25,10 @@ body {
 #menu a.active {
   color: red;
 }
+
+div.mapboxgl-popup-content {
+  width: 30em;
+  max-width: 80vw;
+  max-height: 80vh;
+  overflow-y: auto;
+}
