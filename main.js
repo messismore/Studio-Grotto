@@ -1,6 +1,6 @@
-import { PointLayer } from '/lib/layerClasses.js';
-import airtableLayerObjectsPromise from '/lib/airtable.js';
-import '/lib/geojson.min.js';
+import { PointLayer } from '../Studio-Grotto/lib/layerClasses.js';
+import airtableLayerObjectsPromise from '../Studio-Grotto/lib/airtable.js';
+import '../Studio-Grotto/lib/geojson.min.js';
 
 
 
