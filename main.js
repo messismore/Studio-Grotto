@@ -16,6 +16,7 @@ const map = new mapboxgl.Map({
 
 map.on('load', async function () {
   let airtableLayerObjects = await airtableLayerObjectsPromise;
+  console.log('airtableLayerObjects:', airtableLayerObjects);
   airtableLayerObjects.map(object => object.add(this))
 
   const toggleableLayerIds = airtableLayerObjects.map(object => object.name);
