@@ -32,3 +32,8 @@ div.mapboxgl-popup-content {
   max-height: 80vh;
   overflow-y: auto;
 }
+
+.mapboxgl-popup-content img {
+  height: auto;
+  width: 100%;
+}
