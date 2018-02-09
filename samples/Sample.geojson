@@ -1,0 +1,117 @@
+let sample = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.407984,
+          52.520348
+        ]
+      },
+      "properties": {
+        "Name": "Feature 1",
+        "Description": "This is a regular paragraph.\n\n<table>\n    <tr>\n        <td>Foo</td>\n    </tr>\n</table>\n\nThis is another regular paragraph.",
+        "Image": [
+          {
+            "id": "attBayURxBUTSHkZT",
+            "url": "https://dl.airtable.com/gpp4Fk5SN6AGfjESt2vk_26065762_559004121129980_7758429297156554752_n.jpg",
+            "filename": "26065762_559004121129980_7758429297156554752_n.jpg",
+            "size": 79191,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/NDDX2IOS2G9Uzq5naF0K_small_26065762_559004121129980_7758429297156554752_n.jpg",
+                "width": 36,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/oi9lwhxwSHmJD2cd87JX_large_26065762_559004121129980_7758429297156554752_n.jpg",
+                "width": 512,
+                "height": 512
+              }
+            }
+          }
+        ],
+        "Not A Location": [
+          "recR5LzyrIXtA9oWt"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.408318,
+          52.520126
+        ]
+      },
+      "properties": {
+        "Name": "Feature 2",
+        "Description": "Look Ma,\n**Markdown!**\n\n* Bullets\n* and stuff\n\neven html:\n\n<img src=\"https://dl.airtable.com/gpp4Fk5SN6AGfjESt2vk_26065762_559004121129980_7758429297156554752_n.jpg\"></img>\n",
+        "Image": [
+          {
+            "id": "attfflMUL5s2gJTWY",
+            "url": "https://dl.airtable.com/MebWEo0wT0CMb9wiShSK_26065762_559004121129980_7758429297156554752_n.jpg",
+            "filename": "26065762_559004121129980_7758429297156554752_n.jpg",
+            "size": 79191,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/osOjGQMcRiKTzyEY2735_small_26065762_559004121129980_7758429297156554752_n.jpg",
+                "width": 36,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/FkQmEkw5TM6Fgz9GvZKj_large_26065762_559004121129980_7758429297156554752_n.jpg",
+                "width": 512,
+                "height": 512
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.408180784386929,
+          52.52078791684397
+        ]
+      },
+      "properties": {
+        "Name": "Noch ein Punkt",
+        "Description": "Phasellus accumsan augue sed tempor ultrices. \nMorbi efficitur nisi vitae nisl imperdiet iaculis.",
+        "Image": [
+          {
+            "id": "attGTaXjafe2FY4pp",
+            "url": "https://dl.airtable.com/AhKI0TKeS9Kn9XRcXAwX_1980%20Alexanderplatz_Berlin_East_Germany%20BAHNHOF%20ALEXANDERPLATZ.jpg",
+            "filename": "1980 Alexanderplatz_Berlin_East_Germany BAHNHOF ALEXANDERPLATZ.jpg",
+            "size": 384778,
+            "type": "image/jpeg",
+            "thumbnails": {
+              "small": {
+                "url": "https://dl.airtable.com/drIvAzUgQAGeHTzqAEPb_small_1980%20Alexanderplatz_Berlin_East_Germany%20BAHNHOF%20ALEXANDERPLATZ.jpg",
+                "width": 52,
+                "height": 36
+              },
+              "large": {
+                "url": "https://dl.airtable.com/YQeYtsKTakojQhUKGdig_large_1980%20Alexanderplatz_Berlin_East_Germany%20BAHNHOF%20ALEXANDERPLATZ.jpg",
+                "width": 739,
+                "height": 512
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
+sample.features.map(feature => { if ('Image' in feature.properties) {console.log(feature.properties.Image[0].id);}})
+
+// map.addImage()
