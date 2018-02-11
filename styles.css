@@ -64,3 +64,14 @@ div.mapboxgl-popup-content {
   height: auto;
   width: 100%;
 }
+
+/* styling map overlay */
+
+.map-overlay {
+    font: bold 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}

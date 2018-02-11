@@ -20,8 +20,7 @@ map.on('load', async function () {
   console.log('airtableLayerObjects:', airtableLayerObjects);
   airtableLayerObjects.map(object => object.add(this))
 
-  const toggleableLayerIds = airtableLayerObjects.map(object => object.name);
-
+  const toggleableLayerIds = airtableLayerObjects.map(object => object.name)
   for (let i = 0; i < toggleableLayerIds.length; i++) {
     let id = toggleableLayerIds[i];
 
