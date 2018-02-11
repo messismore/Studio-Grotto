@@ -1,4 +1,3 @@
-import { PointLayer } from '../Studio-Grotto/lib/layerClasses.js';
 import airtableLayerObjectsPromise from '../Studio-Grotto/lib/airtable.js';
 import '../Studio-Grotto/lib/geojson.min.js';
 
@@ -9,7 +8,8 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
     center: [13.41028,  52.52077],
-    zoom: 16
+    zoom: 16,
+    bearing: 42
  });
 
 
