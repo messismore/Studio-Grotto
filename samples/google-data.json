@@ -1,0 +1,163 @@
+[  
+   {  
+      "name":"Citystay",
+      "review":"Wer hier herkommt, tut das wohl in erster Linie wegen der unschlagbaren Preise und wegen der sehr zentralen Lage nahe des Alexanderplatzes. Viel darf man allerdings nicht erwarten. Frühstücksbuffet genügt nur niedrigsten Ansprüchen, in den Dorms bekommt man nur mit Glück eine freie Steckdose. Zum übernachtan aber okay.",
+      "rating":"4.1",
+      "longitude":"13.4055461",
+      "latitude":"52.5212336"
+   },
+   {  
+      "name":"Hotel Motel One",
+      "review":"Ein gutes Hotel, wie ich meine. Sauber, freundliches Personal. Die Lage ist gut, der öffentliche Nahverkehr direkt vor der Nase. Das muss man wörtlich nehmen. Und vertragen, denn die S-Bahn rauscht im Minutentakt am Fenster vorbei. Die Nächte können also was kürzer sein, die guten Betten gleichen das gut aus.",
+      "rating":"4.4",
+      "longitude":"13.4086124",
+      "latitude":"52.52322089999999"
+   },
+   {  
+      "name":"Park Inn",
+      "review":"Sehr schlechter Service. Freunde aus dem Ausland hatten das falsche Park - Inn gebucht. Es war partout nicht möglich sie in dem gewünschten Hotel (also dem gewüschten Park Inn) unterzubringen. Da frage ich mich schon wozu die  Hotels als Kette firmieren bzw. den gleichen Namen benutzen.",
+      "rating":"3.7",
+      "longitude":"13.4129548",
+      "latitude":"52.5227689"
+   },
+   {  
+      "name":"Hotel Alexander Plaza",
+      "review":"Meine Übernachtung in in diesem Hotel war eine Katastrophe. Das Zimmer war mehr ein Abstellraum mit ein Bett wo die Matratze durchgelegen war und nur 190 cm lang war, ich 184 cm. Es gab noch nicht einmal ein Kaffee-Tee Zubereitungsmöglichkeit. Der Stuhl im Zimmer war total abgenutzt. Habe 95 € bezahlt, ohne Frühstück eine abzulute Frechheit.",
+      "rating":"4.3",
+      "longitude":"13.404264",
+      "latitude":"52.521648"
+   },
+   {  
+      "name":"Adina Apartment Hotel",
+      "review":"Direkt am S-Bahnhof. Tram und Nachtbusse auch vor der Tür. Jede Menge Bars und Restaurants in direkter Nachbarschaft.",
+      "rating":"4.5",
+      "longitude":"13.404081",
+      "latitude":"52.522341"
+   },
+   {  
+      "name":"Radisson Blu Hotel",
+      "review":"Bin sehr beeindruckt von diesem Hotel. Es liegt mitten im Zentrum der Stadt. Das Personal ist sehr freundlich und zuvorkommend. Das Casino kann ich empfehlen, wenn jemand nicht weiß, dass das Geld woanders besser angelegt wäre.",
+      "rating":"4.4",
+      "longitude":"13.4027303",
+      "latitude":"52.5195799"
+   },
+   {  
+      "name":"Saturn",
+      "review":"Sehr großer Markt mit riesen Sortiment. Wer sich für Elektronik interessiert findet dort sicher was er braucht. Nebenbei kann man von oben wunderbar den Alex beobachten und interessante Fotos machen.",
+      "rating":"3.9",
+      "longitude":"13.4149879",
+      "latitude":"52.52151550000001"
+   },
+   {  
+      "name":"Media Markt",
+      "review":"Einfache Fragen wie das Ladegerät für den Staubsauger aussieht wurden mit ein finde ich jetzt nicht beantwortet und dabei wurde uns noch der Rücken zu gedreht und das Regal von Links nach Rechts geräumt. Top Leistung. Null Freundlichkeit Kompetenz und Beratung.",
+      "rating":"3.7",
+      "longitude":"13.4147937",
+      "latitude":"52.5199027"
+   },
+   {  
+      "name":"Cancun Restaurant",
+      "review":"Touristenfalle! Leider das schlechteste Restaurant im dem ich in Berlin je war. Die Bedienung war sehr freundlich aber das hilft leider nicht wenn das Gemüse im Burrito noch gefroren ist und die zwei anderen Gerichte nach Pappe schmecken. Man gab uns noch einen Discount und eine Entschuldigung für das offensichtlich schlechte Essen.",
+      "rating":"3.2",
+      "longitude":"13.4094344",
+      "latitude":"52.5191761"
+   },
+   {  
+      "name":"Aqua Dom & Sea Life",
+      "review":"Wir waren heute zur Geburtstags-Schatzsuche, die Kinder fanden es toll. Der  sehr freundliche Sealife Mitarbeiter Marcus hat alle Fragen der Kinder beantworten können und blieb ruhig trotz kleiner ungeduldigen Piraten.",
+      "rating":"3.6",
+      "longitude":"13.4036905",
+      "latitude":"52.5201544"
+   },
+   {  
+      "name":"Atame Tapas Bar",
+      "review":"Eine tolle Atmosphäre. Klasse Tapas. Und ein guter Service. Was will man mehr? Es hat uns sehr gefallen. Danke für den schönen Abend!",
+      "rating":"3.9",
+      "longitude":"13.4068379",
+      "latitude":"52.52354870000001"
+   },
+   {  
+      "name":"MIO Restaurant & Eventlocation Berlin",
+      "review":"Ein sehr tolles Restaurant. Sowohl vom Ambiente her als auch das Essen erfüllt hier alle Wünsche. Die Preise sind angemessen. Es gibt sowohl Plätze zum draußen essen als auch zum drinnen essen und es ist alles sauber.",
+      "rating":"3.7",
+      "longitude":"13.4097795",
+      "latitude":"52.5202122"
+   },
+   {  
+      "name":"Kentucky Fried Chicken",
+      "review":"Es fehlen bei Lieferung und bei Abholung IMMER Teile. Offensichtlich hat Schlamperei hier System, es gibt eine ganze Reihe einschlägiger Beurteilungen hier. Geradezu skandalös ist der Umgang mit Reklamationen, bei denen dem Kunden kaltschnäuzig unterstellt wird, er wolle das Restaurant betrügen. Unmöglich, die Häufigkeit fehlender, aber bezahlter Artikel, grenzt an Betrug.",
+      "rating":"3.7",
+      "longitude":"13.412729",
+      "latitude":"52.52060899999999"
+   },
+   {  
+      "name":"Starbucks",
+      "review":"Der wohl dreckigste Starbucks den ich jemals gesehen haben. Wir waren Sonntagvormittag da, es sah nicht danach aus als wenn dort an diesem Tag schon mal jemand sauber gemacht hätte. Toiletten sind auch keine vorhanden. Ich würde eine der unzähligen Alternativen in der Umgebung nutzen!",
+      "rating":"3.2",
+      "longitude":"13.410093",
+      "latitude":"52.52087399999999"
+   },
+   {  
+      "name":"Vitalia Reformhaus",
+      "review":"Super freundliches und großzügiges Personal! Riesige Auswahl an glutenfreien Produkten. Sonntags geöffnet. Hier kaufe ich gerne ein!",
+      "rating":"3.7",
+      "longitude":"13.411286",
+      "latitude":"52.5216144"
+   },
+   {  
+      "name":"Back Factory",
+      "review":"Nichts für größere (15-20 Brötchen ect.) Bestellungen. Ich hatte bereits am Samstag Morgen die Bestellung angegeben und sogar schon gezahlt. Am Montag kam ich zum abholen und es wurde erst als ich kam alles eingepackt. Ich hatte noch gebeten es gut einzupacken (Karton oder ähnliches da es ca. 15 belegte Sachen waren ). Stattdessen bekam ich alles in viele Brötchen Tüten eingewickelt ... ohne größeren Beutel. Das wurde mir dann so vor die Nase gelegt ...Naja da hab ich schon besseren Service erlebt. Da dieses hinter der Theke in Tüten einpacken lange gedauert hat und ich los musste fiel mir nicht auf dass 4 Brötchen einfach mal gefehlt haben!!!!!!!!! Das geht gar nicht. Einzelne Brötchen gerne aber sowas mache ich da nicht nochmal.",
+      "rating":"3.6",
+      "longitude":"13.4143345802915",
+      "latitude":"52.5218033802915"
+   },
+   {  
+      "name":"Urania Weltzeituhr",
+      "review":"Zeigt die Uhrzeit aller Zeitzonen und vieler Städte und Länder an. Steht direkt auf dem Alexanderplatz und dort ist es oft voll und dreckig.",
+      "rating":"4.4",
+      "longitude":"13.4133085",
+      "latitude":"52.5211666"
+   },
+   {  
+      "name":"Commerzbank",
+      "review":"Die Automaten machen das, was sie sollen.",
+      "rating":"3.5",
+      "longitude":"13.4099933",
+      "latitude":"52.5216797"
+   },
+   {  
+      "name":"Neptun Apotheke",
+      "review":"Sehr UNFREUNDLICH und INKOMPETENT!!! Mir wurde zum verkauften Rezept-pflichtigen Medikament die falsche Dosierung gesagt. Nur Dank Packungsbeilage und Hinweis meines Arztes habe ich zum Glück die richtige Dosierung genommen. So jemand sollte nicht in einer Apotheke arbeiten dürfen. Und dabei noch sehr unfreundlich!",
+      "rating":"2.8",
+      "longitude":"13.4111478",
+      "latitude":"52.52155639999999"
+   },
+   {  
+      "name":"Galeria Kaufhof Berlin Alexanderplatz",
+      "review":"Beeindruckendes Kaufhaus mit tollem Flair. Es gibt dort ein riesiges Sortiment, allerdings meist in Standardgrößen. Wir waren auf der Suche nach Hemd und Jackett in 58/60 - Fehlanzeige. Schwierig ist es auch einen Überblick zu erhalten, da die Sachen nach Marken sortiert sind. Die Verkäufer/innen sind nett, wenn man sie anspricht - von alleine kam bei über 3h Besuchszeit aber kein Personal auf uns zu.",
+      "rating":"4.2",
+      "longitude":"13.4116216",
+      "latitude":"52.5223914"
+   },
+   {  
+      "name":"Kopierzentrum am Alex",
+      "review":"Wir schließen uns den Vorschreibern an , da fehlen einem nur einfach die Worte wie Menschen so ein Geschäft führen können ?!? Aufgrund der Unfreundlichkeit haben wir ein anderes Geschäft aufgesucht zum kopieren.",
+      "rating":"1.8",
+      "longitude":"13.4142635",
+      "latitude":"52.5238243"
+   },
+   {  
+      "name":"dm-drogerie markt",
+      "review":"Super Filiale, schön groß, sauber und übersichtlich. Es gibt eine sehr gute Fotostation. Die Kolleginnen sind freundlich und immer hilfsbereit. Ich geh hier sehr gern einkaufen.",
+      "rating":"4.1",
+      "longitude":"13.4151088",
+      "latitude":"52.52181259999999"
+   },
+   {  
+      "name":"Hofbräu Berlin",
+      "review":"Das Essen typisch Bayrisch ! Gern gewählter Tourispot. Die Bedienung ist sehr freundlich man kann auch gern nur Nachtisch zum Mitnehmen bestellen ;) live Musik immer dabei, leider etwas zu laut das Unterhalten fällt schwer. Sonst alles super!",
+      "rating":"4.1",
+      "longitude":"13.4139583",
+      "latitude":"52.52457150000001"
+   }
+]
