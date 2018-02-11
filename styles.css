@@ -16,7 +16,7 @@ body {
 /* styling the sidebar */
 
 #sidebar {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   height: 100vh;
   width: 30%;
@@ -50,17 +50,16 @@ body {
   padding: 1em;
 }
 
-
 /* popup content div */
 
-div.mapboxgl-popup-content {
+div.mapboxgl-popup-content, #content div.contentCard{
   width: 30em;
   max-width: 80vw;
   max-height: 80vh;
   overflow-y: auto;
 }
 
-.mapboxgl-popup-content img {
+.mapboxgl-popup-content img, #content div.contentCard img {
   height: auto;
   width: 100%;
 }
