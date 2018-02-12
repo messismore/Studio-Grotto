@@ -53,8 +53,8 @@ body {
 /* popup content div */
 
 div.mapboxgl-popup-content, #content div.contentCard{
-  width: 30em;
-  max-width: 80vw;
+  /* width: 30em; */
+  max-width: 70vw;
   max-height: 80vh;
   overflow-y: auto;
 }

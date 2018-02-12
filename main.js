@@ -24,13 +24,8 @@ map.on('load', async function () {
   const notesLayerObject = await notesLayerObjectPromise;
   console.log('airtableLayerObjects:', airtableLayerObjects,
               'jsonLayerObjects:', jsonLayerObjects);
-  const layerObjects = [
-    /* commented out for debugging:
-    ...airtableLayerObjects,
-    ...jsonLayerObjects,
-    */
-    notesLayerObject
-  ]
+
+  const layerObjects = [...airtableLayerObjects, ...jsonLayerObjects]
   layerObjects.map(object => object.add(this))
 
   const toggleableLayerIds = layerObjects.map(object => object.name);
@@ -40,7 +35,6 @@ map.on('load', async function () {
 
     let link = document.createElement('a');
     link.href = '#';
-    link.className = 'active';
     link.textContent = id;
 
     link.onclick = function (e) {
