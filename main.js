@@ -17,6 +17,7 @@ const map = new mapboxgl.Map({
 
 
 map.on('load', async function () {
+
   const airtableLayerObjects = await airtableLayerObjectsPromise;
   const jsonLayerObjects = await jsonLayerObjectsPromise;
   console.log('airtableLayerObjects:', airtableLayerObjects,
@@ -31,7 +32,6 @@ map.on('load', async function () {
 
     let link = document.createElement('a');
     link.href = '#';
-    link.className = 'active';
     link.textContent = id;
 
     link.onclick = function (e) {
