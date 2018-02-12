@@ -21,7 +21,7 @@ map.on('load', async function () {
   const jsonLayerObjects = await jsonLayerObjectsPromise;
   console.log('airtableLayerObjects:', airtableLayerObjects,
               'jsonLayerObjects:', jsonLayerObjects);
-  const layerObjects = [...airtableLayerObjects, ...jsonLayerObjects]
+  const layerObjects = [...airtableLayerObjects, /*...jsonLayerObjects*/]
   layerObjects.map(object => object.add(this))
 
   const toggleableLayerIds = layerObjects.map(object => object.name);
