@@ -1,4 +1,5 @@
 import airtableLayerObjectsPromise from '../Studio-Grotto/lib/airtable.js';
+import jsonLayerObjectsPromise from '../Studio-Grotto/lib/json.js';
 import '../Studio-Grotto/lib/geojson.min.js';
 
 
@@ -14,12 +15,16 @@ const map = new mapboxgl.Map({
 
 
 
-map.on('load', async function () {
-  let airtableLayerObjects = await airtableLayerObjectsPromise;
-  console.log('airtableLayerObjects:', airtableLayerObjects);
-  airtableLayerObjects.map(object => object.add(this))
 
-  const toggleableLayerIds = airtableLayerObjects.map(object => object.name);
+map.on('load', async function () {
+  const airtableLayerObjects = await airtableLayerObjectsPromise;
+  const jsonLayerObjects = await jsonLayerObjectsPromise;
+  console.log('airtableLayerObjects:', airtableLayerObjects,
+              'jsonLayerObjects:', jsonLayerObjects);
+  const layerObjects = [...airtableLayerObjects, ...jsonLayerObjects]
+  layerObjects.map(object => object.add(this))
+
+  const toggleableLayerIds = layerObjects.map(object => object.name);
 
   for (let i = 0; i < toggleableLayerIds.length; i++) {
     let id = toggleableLayerIds[i];
