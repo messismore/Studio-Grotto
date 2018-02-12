@@ -78,3 +78,21 @@ div.mapboxgl-popup-content, #content div.contentCard{
     border-radius: 3px;
     display: none;
 }
+
+/* Submit form */
+#usernote {
+}
+
+input {
+    width: 100%;
+    margin-top: 2em;
+}
+
+input[type=text] {
+    width: 98%;
+     height:20px;
+}
+
+input[type=submit] {
+    width: 20%;
+}
