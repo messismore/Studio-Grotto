@@ -1,5 +1,6 @@
 import airtableLayerObjectsPromise from '../Studio-Grotto/lib/airtable.js';
 import jsonLayerObjectsPromise from '../Studio-Grotto/lib/json.js';
+import notesLayerObjectPromise from '../Studio-Grotto/lib/notesLayer.js'
 import '../Studio-Grotto/lib/geojson.min.js';
 
 
@@ -20,8 +21,10 @@ map.on('load', async function () {
 
   const airtableLayerObjects = await airtableLayerObjectsPromise;
   const jsonLayerObjects = await jsonLayerObjectsPromise;
+  const notesLayerObject = await notesLayerObjectPromise;
   console.log('airtableLayerObjects:', airtableLayerObjects,
               'jsonLayerObjects:', jsonLayerObjects);
+
   const layerObjects = [...airtableLayerObjects, ...jsonLayerObjects]
   layerObjects.map(object => object.add(this))
 
