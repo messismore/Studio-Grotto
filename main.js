@@ -9,16 +9,25 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWVzc2lzbW9yZSIsImEiOiJjamF6aDJiNHEwbXBvMzJvN
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
-    center: [13.41028,  52.52077],
-    zoom: 16,
-    bearing: 42
+    center: [13.40923,  52.52083],
+    zoom: 15.5,
+/*
+    Presentation mode settings:
+    bearing: 45,
+    scrollZoom: false,
+    boxZoom: false,
+    dragRotate: false,
+    dragPan: false,
+    doubleClickZoom: false,
+    touchZoomRotate: false,
+*/
  });
 
 
 
 
 map.on('load', async function () {
-    
+
   const airtableLayerObjects = await airtableLayerObjectsPromise;
   const jsonLayerObjects = await jsonLayerObjectsPromise;
   const notesLayerObject = await notesLayerObjectPromise;

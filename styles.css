@@ -25,16 +25,22 @@ body {
   margin: 0;
   background: black;
   color: white;
+/*  border-right-style: solid;
+  border-right-color: black;
+  border-right-width: 100px;*/
+
 }
 
 /* menu inside the sidebar */
 
 #menu {
-  display: flex;
+  display: block;
   padding: 1em;
   flex-direction: column;
   margin-bottom: 1em;
-  height: 35vh;
+  /* height: 35vh; */
+  height: 45vh;
+  overflow-y: auto;
 }
 
 #menu a {
@@ -54,13 +60,12 @@ body {
   display: flex;
   padding: 1em;
   height: 65vh;
-
 }
 
 /* popup content div */
 
 div.mapboxgl-popup-content, #content div.contentCard{
-  width: 30em; 
+  width: 30em;
   max-width: 70vw;
   max-height: 80vh;
   overflow-y: auto;
@@ -105,5 +110,5 @@ input[type=submit] {
 }
 
 #coordinates {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
