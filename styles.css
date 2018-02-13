@@ -34,11 +34,13 @@ body {
 /* menu inside the sidebar */
 
 #menu {
-  display: flex;
+  display: block;
   padding: 1em;
   flex-direction: column;
   margin-bottom: 1em;
-  height: 35vh;
+  /* height: 35vh; */
+  height: 45vh;
+  overflow-y: auto;
 }
 
 #menu a {
