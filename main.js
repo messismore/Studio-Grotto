@@ -18,7 +18,7 @@ const map = new mapboxgl.Map({
 
 
 map.on('load', async function () {
-    
+
   const airtableLayerObjects = await airtableLayerObjectsPromise;
   const jsonLayerObjects = await jsonLayerObjectsPromise;
   const notesLayerObject = await notesLayerObjectPromise;
