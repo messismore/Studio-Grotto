@@ -61,9 +61,8 @@ map.on('load', async function () {
       e.preventDefault();
       e.stopPropagation();
 
-      console.log(JSON.stringify(mapLayers));
+      // console.log(JSON.stringify(mapLayers));
       if (mapLayers.length > 0) {
-        console.log(mapLayers.length);
         mapLayers.map(mapLayer => {
           try {
             let visibility = map.getLayoutProperty(mapLayer, 'visibility');
