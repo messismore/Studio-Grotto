@@ -1,5 +1,6 @@
 import airtableLayerObjectsPromise from '../Studio-Grotto/lib/airtable.js';
 import jsonLayerObjectsPromise from '../Studio-Grotto/lib/json.js';
+import notesLayerObjectPromise from '../Studio-Grotto/lib/notesLayer.js'
 import '../Studio-Grotto/lib/geojson.min.js';
 
 
@@ -20,35 +21,56 @@ map.on('load', async function () {
     
   const airtableLayerObjects = await airtableLayerObjectsPromise;
   const jsonLayerObjects = await jsonLayerObjectsPromise;
+  const notesLayerObject = await notesLayerObjectPromise;
   console.log('airtableLayerObjects:', airtableLayerObjects,
               'jsonLayerObjects:', jsonLayerObjects);
-  const layerObjects = [...airtableLayerObjects, ...jsonLayerObjects]
+
+  const layerObjects = [
+    ...airtableLayerObjects,
+    ...jsonLayerObjects,
+    notesLayerObject,
+  ];
+
   layerObjects.map(object => object.add(this))
 
-  const toggleableLayerIds = layerObjects.map(object => object.name);
-
-  for (let i = 0; i < toggleableLayerIds.length; i++) {
-    let id = toggleableLayerIds[i];
+  for (let i = 0; i < layerObjects.length; i++) {
+    let id = layerObjects[i].name;
 
     let link = document.createElement('a');
     link.href = '#';
     link.textContent = id;
 
     link.onclick = function (e) {
-      let clickedLayer = this.textContent;
+
+      let mapLayers = [].concat(
+        ...layerObjects.filter(
+          layerObject => layerObject.name == this.textContent).
+          map(layerObject => layerObject.mapLayers
+        )
+      ); // -> [ [ 'mapLayer1', 'mapLayer2' ] ]
+
       e.preventDefault();
       e.stopPropagation();
 
-      let visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+      console.log(JSON.stringify(mapLayers));
+      if (mapLayers.length > 0) {
+        console.log(mapLayers.length);
+        mapLayers.map(mapLayer => {
+          try {
+            let visibility = map.getLayoutProperty(mapLayer, 'visibility');
 
-      if (visibility === 'visible') {
-        map.setLayoutProperty(clickedLayer, 'visibility', 'none');
-        this.className = '';
-      } else {
-        this.className = 'active';
-        map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+            if (visibility === 'visible') {
+              map.setLayoutProperty(mapLayer, 'visibility', 'none');
+              this.className = '';
+            } else {
+              this.className = 'active';
+              map.setLayoutProperty(mapLayer, 'visibility', 'visible');
+            }
+          }
+          catch(error) {console.log(error)}
+        });
       }
-    };
+    }
 
     const layers = document.getElementById('menu');
     layers.appendChild(link);
