@@ -11,6 +11,8 @@ const map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/light-v9',
     center: [13.40923,  52.52083],
     zoom: 15.5,
+/*
+    Presentation mode settings:
     bearing: 45,
     scrollZoom: false,
     boxZoom: false,
@@ -18,6 +20,7 @@ const map = new mapboxgl.Map({
     dragPan: false,
     doubleClickZoom: false,
     touchZoomRotate: false,
+*/
  });
 
 
