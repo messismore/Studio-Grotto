@@ -4,6 +4,7 @@ import notesLayerObjectPromise from '../Studio-Grotto/lib/notesLayer.js'
 import '../Studio-Grotto/lib/geojson.min.js';
 
 
+const projectionMode = document.URL.match('Projection') ? true : false;
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWVzc2lzbW9yZSIsImEiOiJjamF6aDJiNHEwbXBvMzJvNjUwdDdrbzRsIn0.w0i5lPoQtsBo5yeue9lYeQ';
 const map = new mapboxgl.Map({
@@ -11,16 +12,16 @@ const map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/light-v9',
     center: [13.40923,  52.52083],
     zoom: 15.5,
-/*
-    Presentation mode settings:
-    bearing: 45,
-    scrollZoom: false,
-    boxZoom: false,
-    dragRotate: false,
-    dragPan: false,
-    doubleClickZoom: false,
-    touchZoomRotate: false,
-*/
+
+    // If projectionMode = true, disable zooming, panning, and rotate the map 45°
+    bearing:          (projectionMode)? 45    : 0,
+    scrollZoom:       (projectionMode)? false : true,
+    boxZoom:          (projectionMode)? false : true,
+    dragRotate:       (projectionMode)? false : true,
+    dragPan:          (projectionMode)? false : true,
+    doubleClickZoom:  (projectionMode)? false : true,
+    touchZoomRotate:  (projectionMode)? false : true,
+
  });
 
 
@@ -61,9 +62,8 @@ map.on('load', async function () {
       e.preventDefault();
       e.stopPropagation();
 
-      console.log(JSON.stringify(mapLayers));
+      // console.log(JSON.stringify(mapLayers));
       if (mapLayers.length > 0) {
-        console.log(mapLayers.length);
         mapLayers.map(mapLayer => {
           try {
             let visibility = map.getLayoutProperty(mapLayer, 'visibility');
