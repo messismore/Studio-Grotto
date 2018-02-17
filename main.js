@@ -41,48 +41,46 @@ map.on('load', async function () {
     notesLayerObject,
   ];
 
-  layerObjects.map(object => object.add(this))
+  layerObjects.forEach(layerObject => {
 
-  for (let i = 0; i < layerObjects.length; i++) {
-    let id = layerObjects[i].name;
+    // call add() to add them to the map
+    layerObject.add(this);
 
-    let link = document.createElement('a');
+
+    // add a link to the sidebar
+    const link = document.createElement('a');
     link.href = '#';
-    link.textContent = id;
+    link.className = ''
+    link.textContent = layerObject.name;
 
-    link.onclick = function (e) {
+    link.onclick = event => {
 
-      let mapLayers = [].concat(
-        ...layerObjects.filter(
-          layerObject => layerObject.name == this.textContent).
-          map(layerObject => layerObject.mapLayers
-        )
-      ); // -> [ [ 'mapLayer1', 'mapLayer2' ] ]
+      event.preventDefault();
+      event.stopPropagation();
 
-      e.preventDefault();
-      e.stopPropagation();
+      const clickedLayers = layerObjects.filter(layerObject => layerObject.name === link.textContent)
+      clickedLayers[0].visibility === 'none'
 
-      // console.log(JSON.stringify(mapLayers));
-      if (mapLayers.length > 0) {
-        mapLayers.map(mapLayer => {
-          try {
-            let visibility = map.getLayoutProperty(mapLayer, 'visibility');
-
-            if (visibility === 'visible') {
-              map.setLayoutProperty(mapLayer, 'visibility', 'none');
-              this.className = '';
-            } else {
-              this.className = 'active';
-              map.setLayoutProperty(mapLayer, 'visibility', 'visible');
-            }
-          }
+      ? clickedLayers.forEach(layerObject => {
+          layerObject.mapLayers.forEach(mapLayer => {
+            map.setLayoutProperty(mapLayer, 'visibility', 'visible')
+            link.className = 'active'
+          })
+          try {layerObject.show()}
           catch(error) {console.log(error)}
-        });
-      }
+          layerObject.visibility = 'visible'
+      })
+
+      : clickedLayers.forEach(layerObject => {
+          layerObject.mapLayers.forEach(mapLayer => {
+            map.setLayoutProperty(mapLayer, 'visibility', 'none')
+            link.className = ''
+          })
+          layerObject.visibility = 'none'
+        })
     }
 
-    const layers = document.getElementById('menu');
-    layers.appendChild(link);
-
-  };
-});
+    const menu = document.getElementById('menu');
+    menu.appendChild(link);
+  })
+})
