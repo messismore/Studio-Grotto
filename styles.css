@@ -133,9 +133,14 @@ textarea {
 }
 
 .mapboxgl-sidebar-close-button {
+    display: block;
     position: absolute;
-    top: 45vh;
+    top: 43vh;
     left: calc(37% - 23px);
     color: white;
-    background: black;
+    background: none;
+    border: none;
+    cursor: pointer !important;
+    user-select: none;
+    outline: none !important;
 }
