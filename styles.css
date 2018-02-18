@@ -5,6 +5,10 @@ body {
   flex-direction: row;
 }
 
+p {
+/*  font-size: 1em;*/
+}
+
 #map {
   height: 100vh;
   width: calc(100vw - 37%);
@@ -64,6 +68,13 @@ body {
 
 /* popup content div */
 
+div.mapboxgl-popup-content {
+  font-size: 1.3em;    
+  font-family: 'Work Sans', sans-serif;
+  border-radius: none;
+  padding: 1.5em;
+}
+
 div.mapboxgl-popup-content, #content div.contentCard{
   width: 30em;
   max-width: 70vw;
@@ -95,18 +106,26 @@ div.mapboxgl-popup-content, #content div.contentCard{
 #usernote {
 }
 
-input {
-    width: 100%;
-    margin-top: .5em;
-}
-
-input[type=text] {
+textarea {
     width: 98%;
-     height:20px;
+    height: 25em;
+    resize: none;
+/*    border: solid;
+    border-width: thin;
+    border-color: gainsboro;*/  
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;    
 }
 
-input[type=submit] {
-    width: 40%;
+.submit {
+    width: 30%;
+    border: solid;
+    border-width: thin;
+    border-color: black;   
+    border-radius: none;
+    margin-top: 2em;
+    font-size: 1em;    
 }
 
 #coordinates {
