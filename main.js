@@ -5,6 +5,7 @@ import '../Studio-Grotto/lib/geojson.min.js';
 
 
 const projectionMode = document.URL.match('Projection') ? true : false;
+const testMode       = document.URL.match('Test') ? true : false;
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWVzc2lzbW9yZSIsImEiOiJjamF6aDJiNHEwbXBvMzJvNjUwdDdrbzRsIn0.w0i5lPoQtsBo5yeue9lYeQ';
 const map = new mapboxgl.Map({
