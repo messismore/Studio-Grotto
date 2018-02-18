@@ -145,9 +145,10 @@ textarea {
 
 .mapboxgl-sidebar-close-button {
     display: block;
-    position: absolute;
-    top: 43vh;
-    left: calc(37% - 23px);
+    position: relative;
+    top: 10px;
+    right: 10px;
+    float: right;
     color: white;
     background: none;
     border: none;
