@@ -77,6 +77,8 @@ map.on('load', async function () {
             map.setLayoutProperty(mapLayer, 'visibility', 'none')
             link.className = ''
           })
+          try {layerObject.hide()}
+          catch(error) {console.log(error)}
           layerObject.visibility = 'none'
         })
     }
