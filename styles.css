@@ -131,3 +131,11 @@ textarea {
 #coordinates {
   /* visibility: hidden; */
 }
+
+.mapboxgl-sidebar-close-button {
+    position: absolute;
+    top: 45vh;
+    left: calc(37% - 23px);
+    color: white;
+    background: black;
+}
