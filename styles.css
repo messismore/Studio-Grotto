@@ -3,6 +3,8 @@ body {
   font-family: 'Work Sans', sans-serif;
   display: flex;
   flex-direction: row;
+  background: black;
+  height: 100vh;
 }
 
 p {
@@ -11,7 +13,7 @@ p {
 
 #map {
   height: 100vh;
-  width: calc(100vw - 37%);
+  width: calc(50vw - 18.5vw);
   display: flex;
   padding: 0;
   margin: 0;
@@ -19,11 +21,11 @@ p {
 
 /* styling the sidebar */
 
-#sidebar {
+#sidebarleft {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 37%;
+  max-height: 100vh;
+  width: 18.5%;
   left: 0;
   padding: 0;
   margin: 0;
@@ -35,15 +37,25 @@ p {
 
 }
 
-/* menu inside the sidebar */
+#sidebarright {
+  display: flex;
+  width: 25vw;
+  right: 25vw;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  color: white;
+  flex-direction: column;
+}
+
+/* left sidebar */
 
 #menu {
   display: block;
   padding: 1em;
   flex-direction: column;
-  margin-bottom: 1em;
   /* height: 35vh; */
-  height: 45vh;
+  height: 100vh;
   overflow-y: auto;
 }
 
@@ -58,18 +70,27 @@ p {
   display: flex;
 }
 
-/* content div inside the side bar */
+/* right side bar */
 
 #content {
   display: flex;
-  padding: 1em;
-  height: 65vh;
+  padding-left: 2em;
+  height: 70vh;
+  margin-bottom: 2em;
+/*  overflow-y: auto;*/
+}
+
+#legend {
+  display: flex;
+  padding-left: 2em;
+  height: 30vh;
+/*  overflow-y: auto;*/
 }
 
 /* popup content div */
 
 div.mapboxgl-popup-content {
-  font-size: 1.3em;    
+  font-size: 1.3em;
   font-family: 'Work Sans', sans-serif;
   border-radius: none;
   padding: 1.5em;
@@ -112,22 +133,35 @@ textarea {
     resize: none;
 /*    border: solid;
     border-width: thin;
-    border-color: gainsboro;*/  
+    border-color: gainsboro;*/
     border: none;
     font-family: 'Work Sans', sans-serif;
-    font-size: 1em;    
+    font-size: 1em;
 }
 
 .submit {
     width: 30%;
     border: solid;
     border-width: thin;
-    border-color: black;   
+    border-color: black;
     border-radius: none;
     margin-top: 2em;
-    font-size: 1em;    
+    font-size: 1em;
 }
 
 #coordinates {
   /* visibility: hidden; */
+}
+
+.mapboxgl-sidebar-close-button {
+    display: block;
+    position: absolute;
+    top: 43vh;
+    left: calc(37% - 23px);
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer !important;
+    user-select: none;
+    outline: none !important;
 }
