@@ -5,6 +5,7 @@ body {
   flex-direction: row;
   background: black;
   height: 100vh;
+  line-height: 1.5em;
 }
 
 p {
@@ -77,14 +78,14 @@ p {
   padding-left: 2em;
   height: 70vh;
   margin-bottom: 2em;
-/*  overflow-y: auto;*/
+  overflow-y: auto;
 }
 
 #legend {
   display: flex;
   padding-left: 2em;
   height: 30vh;
-/*  overflow-y: auto;*/
+  overflow-y: auto;
 }
 
 /* popup content div */
@@ -154,14 +155,62 @@ textarea {
 }
 
 .mapboxgl-sidebar-close-button {
-    display: block;
-    position: absolute;
-    top: 43vh;
-    left: calc(37% - 23px);
+    position: relative;
+    top: 20px;
+    right: 20px;
+    float: right;
     color: white;
     background: none;
     border: none;
     cursor: pointer !important;
     user-select: none;
     outline: none !important;
+}
+
+
+
+/* Styling for legends */
+
+.contentCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contentCard li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+.contentCard li::before {
+  content: "•";
+  font-size: 3em;
+  position: relative;
+  bottom:   -0.22em;
+  line-height: 0.1em;
+  padding-right: 7px;
+}
+
+.contentCard li:nth-of-type(1n)::before {
+  color: green
+}
+
+.contentCard li:nth-of-type(2n)::before {
+  color: brown
+}
+
+.contentCard li:nth-of-type(3n)::before {
+  color: blue
+}
+
+.contentCard li:nth-of-type(4n)::before {
+  color: orange
+}
+
+.contentCard li:nth-of-type(5n)::before {
+  color: yellow
+}
+
+.contentCard li:nth-of-type(6n)::before {
+  color: purple
 }
