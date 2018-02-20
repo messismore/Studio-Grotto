@@ -78,6 +78,7 @@ p {
   padding-left: 2em;
   height: 70vh;
   margin-bottom: 2em;
+  padding-top: 2em;
   overflow-y: auto;
 }
 
