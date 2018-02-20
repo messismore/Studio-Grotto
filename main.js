@@ -11,7 +11,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWVzc2lzbW9yZSIsImEiOiJjamF6aDJiNHEwbXBvMzJvN
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
-    center: [13.40940,  52.52090],
+    center: [13.40940,  52.52080],
     zoom: 15.5,
 
     // If projectionMode = true, disable zooming, panning, and rotate the map 45°
