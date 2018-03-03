@@ -3,7 +3,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   display: flex;
   flex-direction: row;
-  background: black;
+  background: white;
   height: 100vh;
   line-height: 1.5em;
 }
@@ -14,7 +14,7 @@ p {
 
 #map {
   height: 100vh;
-  width: calc(50vw - 18.5vw);
+  width: calc(100vw - 30em);
   display: flex;
   padding: 0;
   margin: 0;
@@ -26,12 +26,12 @@ p {
   display: flex;
   flex-direction: column;
   max-height: 100vh;
-  width: 18.5%;
+  width: 15em;
   left: 0;
   padding: 0;
   margin: 0;
-  background: black;
-  color: white;
+  background: white;
+  color: blue;
 /*  border-right-style: solid;
   border-right-color: black;
   border-right-width: 100px;*/
@@ -40,12 +40,11 @@ p {
 
 #sidebarright {
   display: flex;
-  width: 25vw;
-  right: 25vw;
+  width: 15em;
   height: 100vh;
   margin: 0;
-  background: black;
-  color: white;
+  background: white;
+  color: blue;
   flex-direction: column;
 }
 
@@ -63,11 +62,11 @@ p {
 #menu a {
   text-decoration: none;
   display: flex;
-  color: white;
+  color: blue;
 }
 
 #menu a.active {
-  color: #ff0;
+  color: red;
   display: flex;
 }
 
@@ -160,7 +159,7 @@ textarea {
     top: 20px;
     right: 20px;
     float: right;
-    color: white;
+    color: black;
     background: none;
     border: none;
     cursor: pointer !important;
