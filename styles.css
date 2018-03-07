@@ -88,6 +88,60 @@ p {
   overflow-y: auto;
 }
 
+/* loading spinner */
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner,
+.spinner:before {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  top: -50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.spinner:before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #00f;
+  border-right-color: #00f;
+  animation: spinner .4s linear infinite;
+}
+
+/* Spinner animations */
+
+.spinner-add,
+.spinner-remove {
+  animation-fill-mode: both;
+  animation-duration: .4s;
+}
+
+.spinner-add {
+  animation-name: spinner-add;
+}
+
+@keyframes spinner-add {
+  from {transform: scale(0);}
+  to {transform: scale(1);}
+}
+
+.spinner-remove {
+  animation-name: spinner-remove;
+}
+
+@keyframes spinner-remove {
+  to {transform: scale(0);}
+}
+
 /* popup content div */
 
 div.mapboxgl-popup-content {
