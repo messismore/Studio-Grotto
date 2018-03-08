@@ -13,6 +13,7 @@ const map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/light-v9',
     center: [13.40940,  52.52089],
     zoom: 15.5,
+    logoPosition: 'top-right',
 
     // If projectionMode = true, disable zooming, panning, and rotate the map 45°
     bearing:          (projectionMode)? 45    : 0,

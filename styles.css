@@ -14,10 +14,16 @@ p {
 
 #map {
   height: 100vh;
-  width: calc(100vw - 30em);
+  width: 100vw;
   display: flex;
   padding: 0;
   margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#map:nth-child(1n+0) {
+  font-size: 1.1em;
+  line-height: 1.4em;
 }
 
 /* styling the sidebar */
@@ -26,26 +32,28 @@ p {
   display: flex;
   flex-direction: column;
   max-height: 100vh;
-  width: 15em;
+  min-width: 5em;
+  max-width: 15em;
   left: 0;
   padding: 0;
   margin: 0;
   background: white;
   color: blue;
-/*  border-right-style: solid;
-  border-right-color: black;
-  border-right-width: 100px;*/
-
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  z-index: 2;
 }
 
 #sidebarright {
   display: flex;
-  width: 15em;
+  max-width: 20em;
   height: 100vh;
   margin: 0;
+  padding: 1em;
   background: white;
   color: blue;
   flex-direction: column;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  z-index: 1
 }
 
 /* left sidebar */
@@ -74,7 +82,6 @@ p {
 
 #content {
   display: flex;
-  padding-left: 2em;
   height: 70vh;
   margin-bottom: 2em;
   padding-top: 2em;
@@ -83,7 +90,6 @@ p {
 
 #legend {
   display: flex;
-  padding-left: 2em;
   height: 30vh;
   overflow-y: auto;
 }
@@ -145,7 +151,7 @@ p {
 /* popup content div */
 
 div.mapboxgl-popup-content {
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: 'Work Sans', sans-serif;
   border-radius: none;
   padding: 1.5em;
