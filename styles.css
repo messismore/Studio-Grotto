@@ -28,9 +28,14 @@ p {
 
 /* styling the sidebar */
 
-#sidebarleft {
+#sidebars {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  position: absolute;
+  z-index: 1;
+}
+
+#sidebarleft {
   max-height: 100vh;
   min-width: 5em;
   max-width: 15em;
@@ -45,17 +50,17 @@ p {
 }
 
 #sidebarright {
+  background: white;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  color: blue;
   display: flex;
-  max-width: 20em;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
+  max-width: 20em;
   padding: 1em;
-  background: white;
-  color: blue;
-  flex-direction: column;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
-  z-index: 1;
   transition: all 500ms ease;
+  z-index: 1;
 }
 
 /* left sidebar */
